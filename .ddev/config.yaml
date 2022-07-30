@@ -21,7 +21,7 @@ nodejs_version: "16"
 # 4057 tests
 web_extra_daemons:
   - name: "http-1"
-    command: "node_modules/.bin/vite"
+    command: "/var/www/html/frontend/node_modules/.bin/vite"
     directory: /var/www/html/frontend
 web_extra_exposed_ports:
   - name: node-vite
