@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+
+DDEV_BIN=../ddev-origin/.gotmp/bin/darwin_amd64/ddev
+
+exec $DDEV_BIN "$@"
+

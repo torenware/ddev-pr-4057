@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cd frontend
+exec node_modules/.bin/vite "$@"
+
